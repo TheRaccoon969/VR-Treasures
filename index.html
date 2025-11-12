@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VR Treasures</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Welcome to VR Treasures!</h1>
+    <h2>about the page</h2>
+    <p>So about a month ago from the moment of me creating this page,</p>
+    <p>I made a leap of faith into VR, and purchased my first ever VR Goggles</p>
+    <p>my choice was almost obvious as it was a spontaneous decision.</p>
+    <p>so I went and purchased the Meta Quest 3S</p>
+    <p>since then, I was discovering everything I could find and try that caught my attention</p>
+    <p>waking up and going through the meta store to see if anything new popped up</p>
+    <p>so basically I went full on crazy with VR, you get the gist</p>
+    <p>thanks to my newfound lunacy, I found some really cool hidden gems.</p>
+    <p>so without any further ado, here are my favourites so far.</p>
+    <h1>Favourite games from Meta store:</h1>
+    <h2>Free and Beginner friendly:</h2>
+    <p>I must start with an obvious one, "First Encounters"
+        Now this will work for you only on quest 3 and 3S as the game uses mixed reality.
+        Its intuitive and very entertaining, when I downloaded it, my two children and I were playing
+        until the headset needed charging. It has very cartoonishly adorable stylized graphics,
+        easy and fun controls. Word of warning though, make sure you have plenty of space to move
+        to fully enjoy this completely free gem on the Meta Store</p>
+  <div class="video-container reveal">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BM0CZUHrbcw?si=rVu__rPHGKRruiP3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+    <p>Next up, Ilysia. It is anything but beginner friendly at this stage of development but its worth the time figuring it out.
+        I'm an 80s baby, so I had a lot of MMORPG experiences, but this takes the cake.
+        Finally, for the first time, you can sink into this open world, VRMMORPG like you did
+        in World of Warcraft, except, IT'S IN VR!!! I Know right? Mind in Blown!
+        Go check it out, I simply cannot have enough of it</p>
+  <div class="video-container reveal">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3RtdGwoTFU?si=ckamj5wiFr-T_d7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+    <p> If you are interested or actually have done any Archery, you going to love this next one.
+    "Archery Pro" is a very intuitive archery game where you can challange yourself in single player or against people around the world.
+    i have a little archery experience and by my opinion Archery Pro is pretty accurate. I had and still have a ton of fun with the game.
+    Check it out and maybe see you around!</p>
+  <div class="video-container reveal">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yJsxCn3oeww?si=7rXodA_6vtHkDqV6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+    <p>This next one was one of the first games i downloaded on my headset and its so much fun.
+       Ironstrike is a fantasy combat game where you use poles, swords and bows to fight golem like enemies in a pretty large open space.</p>
+  <div class="video-container reveal">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/y_OSnizEmoY?si=MuCibpqfLVjZGnKJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <script>
+  const reveals = document.querySelectorAll('.reveal');
+
+  window.addEventListener('scroll', () => {
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = reveals[i].getBoundingClientRect().top;
+      const elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add('active');
+      } else {
+        reveals[i].classList.remove('active');
+      }
+    }
+  });
+  </script>
+  </body>
+</html>
