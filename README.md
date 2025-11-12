@@ -1,2 +1,2 @@
-# VR-Treasures
+# VRTreasures
 collection of VR games
